@@ -1,1 +1,3 @@
+.gitignore
 .venv/
+bert-ner/artifacts/
