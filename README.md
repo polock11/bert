@@ -21,11 +21,11 @@ Performance metrics such as precision, recall, and F1 score are calculated to as
 Below are the outcomes of the fine-tuned model:
 
 ### Evaluation Metrics
-![Results](polock11/bert/bert-ner/results.png)
+![Results](/bert/bert-ner/results.png)
 
 ### Sample Output
 The model's output on test data:
-![Output](polock11/bert/bert-ner/output.png)
+![Output](/bert/bert-ner/output.png)
 
 ## Key Features
 
