@@ -21,7 +21,7 @@ Performance metrics such as precision, recall, and F1 score are calculated to as
 Below are the outcomes of the fine-tuned model:
 
 ### Evaluation Metrics
-![Results](bert-ner/results.png)
+<img src="bert/bert-ner/results.png" alt="Results" height="200" width="400">
 
 ### Sample Output
 The model's output on test data:
