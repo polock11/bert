@@ -21,7 +21,17 @@ Performance metrics such as precision, recall, and F1 score are calculated to as
 Below are the outcomes of the fine-tuned model:
 
 ### Evaluation Metrics
-<img src="bert/bert-ner/results.png" alt="Results" height="200" width="400">
+
+| Label     | Precision | Recall | F1-Score | Support |
+|-----------|-----------|--------|----------|---------|
+| geo       | 0.86      | 0.87   | 0.86     | 11,585  |
+| gpe       | 0.97      | 0.91   | 0.94     | 3,467   |
+| org       | 0.72      | 0.69   | 0.71     | 6,785   |
+| per       | 0.79      | 0.80   | 0.79     | 5,270   |
+| tim       | 0.84      | 0.84   | 0.84     | 4,457   |
+| **micro avg** | **0.83** | **0.82** | **0.82** | **31,564** |
+| **macro avg** | **0.83** | **0.82** | **0.83** | **31,564** |
+| **weighted avg** | **0.83** | **0.82** | **0.82** | **31,564** |
 
 ### Sample Output
 The model's output on test data:
